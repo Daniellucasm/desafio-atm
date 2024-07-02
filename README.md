@@ -28,7 +28,7 @@ O principal desafio foi implementar o código em Python, pois é uma linguagem q
 4. **Testar o Endpoint**:
    - Com o servidor em execução, você pode testar o endpoint usando o comando cURL abaixo:
      ```bash
-     curl -X POST -H "Content-Type: application/json" -d '{"valor": 380}' http://localhost:5000/api/saque
+     curl -X POST -H "Content-Type: application/json" -d "{\"valor\": 380}" http://localhost:5000/api/saque
      ```
 5. Por fim, para realizar executar os testes unitários basta realizar o comando abaixo, em que irá fornecer uma saída detalhada dos testes.
   ```bash
